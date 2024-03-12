@@ -2,7 +2,7 @@
 @import url('./variables.css');
 @import url('./banner.css');
 @import url('./menu.css');
-
+@import url('./footer.css');
 
 * {
     margin: 0;
