@@ -1,0 +1,40 @@
+.banner {
+    height: 456px;
+    width: 100%;
+    background: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    margin-bottom: 34px;
+}
+
+.banner h1 {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.banner span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.banner .status {
+    background-color: var(--green);
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+
+.banner .status span {
+    font-weight: bold;
+    font-size: 18px;
+}
